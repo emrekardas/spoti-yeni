@@ -1,0 +1,5 @@
+{
+    "CLIENT_ID": "9a109132005f4401a3264ff8fd79eee5",
+    "CLIENT_SECRET": "68f551b40e06445eb326e2e78e457a7e",
+    "REDIRECT_URI": "http://localhost:5000/callback/"
+}

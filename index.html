@@ -1,0 +1,49 @@
+<div class="">
+
+    <div class="">
+        <h1>Spotify Top Track Playlist Generator</h1>
+    </div>
+    <div class="">
+        <br />
+        <form action="/go" method="post">
+
+
+            <h3>What time range would you like to use?</h3>
+            <br />
+            <h4>
+
+                <input type="radio" name="time_range" id="inlineCheckbox1" value="short_term" checked> Last Few Weeks
+                <br />
+                <input type="radio" name="time_range" id="inlineCheckbox2" value="medium_term"> Last Few Months
+                <br />
+                <input type="radio" name="time_range" id="inlineCheckbox3" value="long_term"> Last Few Years
+
+            </h4>
+            <br />
+            <h3>How many tracks do you want?</h3>
+            <h4>
+                <input type="range" min="3" max="15" value="5" name="num_tracks" step="1"
+                    onchange="showValue(this.value)" />
+                <span id="range">5</span>
+            </h4>
+            <script type="text/javascript">
+                function showValue(newValue) {
+                    document.getElementById("range").innerHTML = newValue;
+                }
+            </script>
+
+            <br />
+            <div class="">
+
+                <center>
+                    <button type="submit" class="btn btn-danger spotify_button" id="" style="">
+                        <h4><i class="fab fa-spotify"></i> Create My Playlist</h4>
+                    </button>
+                </center>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
