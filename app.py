@@ -13,7 +13,7 @@ app.secret_key = "xjFXOlpiWg"
 
 API_BASE = 'https://accounts.spotify.com'
 
-REDIRECT_URI = "http://127.0.0.1:5000/callback/"
+REDIRECT_URI = "http://127.0.0.1:5000/index.html/"
 CLIENT_ID = "9a109132005f4401a3264ff8fd79eee5"
 CLIENT_SECRET = "68f551b40e06445eb326e2e78e457a7e"
 # Spotify Developer Docs Authorization Scopes
